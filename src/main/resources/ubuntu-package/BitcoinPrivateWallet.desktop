@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=0.0.1
+Name=Classic Bitcoin Wallet
+Comment=Classic Bitcoin Desktop GUI Wallet (full node)
+GenericName=Classic Bitcoin Wallet
+Keywords=ClassicBitcoin;cryptocurrency;CBTC;
+Exec=classicbitcoin-desktop-gui-wallet
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/lib/classicbitcoin-gui-wallet/cbtc-icon.png
+Categories=GNOME;Application;
+StartupNotify=true

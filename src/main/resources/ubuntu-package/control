@@ -1,0 +1,8 @@
+Package: classicbitcoin-desktop-gui-wallet
+Version: 0.0.1
+Section: misc
+Priority: low
+Architecture: all
+Description: Classic Bitcoin Desktop GUI Wallet
+Maintainer: bitclassic.info
+Depends: default-jdk, cbtc

@@ -33,16 +33,11 @@ public class AboutDialog
         licensePanel.setLayout(new BorderLayout(3, 3));
         JTextArea licenseLabel = new JTextArea();
         licenseLabel.setText(
-                "" + "Copyright (c) 2018 - The Classic Bitcoin Team\n\n"
-                        + "Jon Layton <me@jonl.io>"
+                "" + "Copyright (c) 2019 - The Classic Bitcoin Team\n\n"
+                        + "CBTC Team Admin <admin@bitclassic.info>"
                         + "\n"
-                        + "Donate CBTC T: b1DaAu8Un1qmjxQtGnDMcFjmYW6tP55ebvi"
-                        + "\nDonate CBTC Z: zkT7ciUjQavpH4W7g7FvjortXn8aaKdCxBpU9Fx5Qydy6C9yC9taiTRjCyTTVCXFiLcXjrxNGwpcK5D1f6VTeChA2JyVFai"
-                        +"\n\n"
-                        + "Niels Buekers <niels.buekers@gmail.com>"
-                        + "\n"
-                        + "Donate CBTC T: b1QuabCryqBRfwbCGN1Dv7aEgEnmaMiqg7k"
-                        + "\nDonate CBTC Z: zkN1kCVEy7yNA8BrY8yZNYyLJKcMFs1nDALoXD9eTD3uSGn4jixv1pyYYoroEaKUyyhnkfC8gAm4wLMH2kx3WXgKduLo7eD"
+                        + "Donate CBTC T: rzNHakmWjsiANroopZA64Fp8KVRgBQD81EJ"
+                        + "\nDonate CBTC Z: zkWCGFAiKhMR9CY9KNewm9fyBC3rxVbphqBF4CZ12p8QVSETU9rYLwytTpAXvcXggjfFXoXuPHci5HdSZSy1DVTJEZHs9pb"
                         +"\n\n\n\n"
                         +"Forked from the ZENCash wallet\n"
                         + "Copyright (c) 2016-2017 Ivan Vaklinov <ivan@vaklinov.com> \n" +

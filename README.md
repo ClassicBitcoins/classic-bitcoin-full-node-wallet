@@ -83,12 +83,12 @@ https://github.com/ClassicBitcoinS/classic-bitcoin-full-node-wallet/releases
    right-click `ClassicBitcoinDesktopWallet-VERSION.jar` file and choose "Open with OpenJDK 8 Runtime".
 
 
-### `cbitcoin.conf`
-Running the .jar will automatically set up `~/.cbitcoin/cbitcoin.conf` for you. In some cases, you may need to edit it manually. It should contain:
+### `cbtc.conf`
+Running the .jar will automatically set up `~/.cbtc/cbtc.conf` for you. In some cases, you may need to edit it manually. It should contain:
 ```
 rpcuser=ENTER-RANDOM-ALPHANUMERICAL-PASSWORD
 rpcpassword=ENTER-RANDOM-ALPHANUMERICAL-PASSWORD
-rpcport=7612
+rpcport=2051
 #addnode=...
 
 ```

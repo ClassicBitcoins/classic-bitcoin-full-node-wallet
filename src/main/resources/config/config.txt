@@ -1,5 +1,5 @@
 ##
-## cbitcoin.conf configuration file. Lines beginning with # are comments.
+## cbtc.conf configuration file. Lines beginning with # are comments.
 ##
 
 # Network-related settings:
@@ -47,7 +47,7 @@
 
 # Alternatively use as many connect= settings as you like to connect ONLY to specific peers
 #connect=69.164.218.197
-#connect=10.0.0.1:7123
+#connect=10.0.0.1:2050
 
 # Listening mode, enabled by default except when 'connect' is being used
 #listen=1

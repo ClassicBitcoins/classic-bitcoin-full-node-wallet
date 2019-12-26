@@ -191,13 +191,13 @@ public class OSUtil
 
         if (os == OS_TYPE.MAC_OS)
         {
-            return new File(System.getProperty("user.home") + "/Library/Application Support/CBitcoin").getCanonicalPath();
+            return new File(System.getProperty("user.home") + "/Library/Application Support/cbtc").getCanonicalPath();
         } else if (os == OS_TYPE.WINDOWS)
         {
-            return new File(System.getenv("APPDATA") + "\\CBitcoin").getCanonicalPath();
+            return new File(System.getenv("APPDATA") + "\\cbtc").getCanonicalPath();
         } else
         {
-            return new File(System.getProperty("user.home") + "/.cbitcoin").getCanonicalPath();
+            return new File(System.getProperty("user.home") + "/.cbtc").getCanonicalPath();
         }
     }
 

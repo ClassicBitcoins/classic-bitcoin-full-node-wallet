@@ -228,7 +228,7 @@ public class CBTCInstallationObserver {
         }
 
         String blockChainDir = OSUtil.getBlockchainDirectory();
-        File zenConf = new File(blockChainDir + File.separator + "cbitcoin.conf");
+        File zenConf = new File(blockChainDir + File.separator + "cbtc.conf");
         if (zenConf.exists()) {
             Properties confProps = new Properties();
             FileInputStream fis = null;

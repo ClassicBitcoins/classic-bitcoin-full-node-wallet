@@ -23,11 +23,11 @@ gpg --export 219F55740BBF7A1CE368BA45FB7053CE4991B669 | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install cbtc classic-bitcoin-desktop-gui-wallet
 ```
-Then you need to set up the `cbitcoin.conf` configuration file:
+Then you need to set up the `cbtc.conf` configuration file:
 ```
-mkdir -p ~/.cbitcoin
-echo "rpcuser=username" >> ~/.cbitcoin/cbitcoin.conf
-echo "rpcpassword=$(head -c 32 /dev/urandom | base64)" >> ~/.cbitcoin/cbitcoin.conf
+mkdir -p ~/.cbtc
+echo "rpcuser=username" >> ~/.cbtc/cbtc.conf
+echo "rpcpassword=$(head -c 32 /dev/urandom | base64)" >> ~/.cbtc/cbtc.conf
 ```
 
 Finally you need to download the Z cryptographic keys (takes a while):
